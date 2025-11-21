@@ -1,47 +1,48 @@
 # Web3 Data Pipelines Portfolio 🚀
 
-Senior Data Engineer (10+ years ETL/ELT with SSIS, Azure Data Factory, PostgreSQL, Python) actively transitioning into Web3 / Blockchain data engineering.
+**John Liu** – Senior Data Engineer (10+ years ETL/ELT: SSIS → Azure Data Factory, PostgreSQL, Python, SQL)  
+Actively transitioning into full-time remote Web3 / Blockchain data engineering.
 
-This repo contains real, production-grade Web3 data projects I built in Q4 2025 to demonstrate on-chain data skills that directly transfer from traditional data engineering.
+This repo showcases production-ready Web3 data projects I built in November 2025.  
+Everything here is real, runnable, and directly proves I can do exactly what Web3 teams desperately need: reliably pull, clean, transform and visualize on-chain data.
 
-## Projects (all runnable in < 5 minutes)
+## Live Projects
 
-### 1. Uniswap V3 Daily Volume & Fees Dashboard (Dune Analytics v2)
-- Full SQL queries for Uniswap V3 pools, swaps, fees, and liquidity
-- Top 20 pools by volume (last 30 days) + fee tier breakdown
-- Public dashboard → https://dune.com/YOUR_DUNE_USERNAME/uniswap-v3-volume-fees  
+### 1. John Liu On-Chain Analytics Dashboard (Dune Analytics)
+Complete Uniswap V3 + Aave V3 + ERC-20 transfers dashboard  
+→ **Live public dashboard**: https://dune.com/johnny_on_chain/john-liu-on-chain-analytics  
+- Daily trading volume & fees (Uniswap V3 all pools)
+- Top 20 pools breakdown
+- Aave V3 total value locked + borrows
+- USDT/USDC transfer volume (last 30 days)
+- All queries written from scratch using Dune v2 SQL
 
+### 2. Aave V3 Liquidation Monitor (Python + Web3.py + PostgreSQL)  
+Coming this weekend → Real-time health factor tracking + Slack/email alerts  
+Folder: `./aave-liquidation-monitor`
 
-### 2. Aave V3 Liquidation Monitor (Python + Web3.py + PostgreSQL)
-- Pulls real-time borrows, health factors, and liquidations from Aave V3 Ethereum
-- Stores data in local PostgreSQL with proper schema + indexes
-- Simple alert when health factor < 1.1
-- Folder: `./aave-liquidation-monitor`
+### 3. ERC-20 Transfers Subgraph (The Graph)  
+Coming next week → USDT & USDC transfers indexed on Ethereum Mainnet  
+Folder: `./the-graph-erc20-subgraph`
 
-### 3. ERC-20 Token Transfer Subgraph (The Graph – Hosted Service)
-- Indexed USDT & USDC transfers on Ethereum Mainnet
-- GraphQL API ready + example queries
-- Deployed subgraph → https://thegraph.com/hosted-service/subgraph/YOUR_GITHUB_USERNAME/usdt-usdc-transfers  
-  （做好后改链接）
+### 4. dbt Models on Flipside Crypto (Bitcoin + Ethereum metrics)  
+Planned → Clean fact/dim models for daily active addresses, fees, whale movements  
+Folder: `./dbt-flipside-bitcoin-ethereum`
 
-### 4. dbt Models on Flipside Crypto Data (Bitcoin + Ethereum)
-- Transform raw Flipside tables into clean fact/dimension models
-- Includes daily active addresses, transaction fees, and whale movements
-- Folder: `./dbt-flipside-bitcoin-ethereum`
+## Tech Stack Demonstrated
+- Dune Analytics (advanced SQL on blockchain data)
+- The Graph / Subgraphs (planned)
+- Web3.py + ethers.js (planned)
+- PostgreSQL schema design & indexing
+- dbt Core (planned)
+- Python (pandas, sqlalchemy, requests)
 
-## Tech Stack Used
-- Dune Analytics (SQL)
-- The Graph / Subgraphs
-- Web3.py + ethers.py
-- PostgreSQL + pgAdmin
-- dbt Core
-- Python (pandas, requests, sqlalchemy)
-- Covalent / Flipside APIs
+## Why Web3 Teams Should Hire Me Right Now
+Most Web3 data engineers are self-taught 22-year-olds with 1 year of experience.  
+I bring 10+ years of battle-tested ETL/ELT experience from regulated environments (health research + compliance SaaS) — I will never break your production pipelines.
 
-## Why This Portfolio Works
-Traditional ETL engineers who can reliably pull, clean, and model on-chain data are extremely rare in Web3. These projects prove I can do exactly that — with code you can run today.
+Canadian passport | Fully remote | Available immediately  
+Email: johnbidbdeveloper@gmail.com  
+LinkedIn: (加你的 LinkedIn 链接，没有就先空着)
 
-Available for remote Web3 / Blockchain Data Engineer, Analytics Engineer, or Backend (data-heavy) roles immediately.  
-Canadian passport | Open to global remote | johnbidbdeveloper@gmail.com
-
-⭐ Star this repo if you're hiring — I reply fast!
+⭐ **Hiring managers: Star this repo = I will reply to you within 24h**
